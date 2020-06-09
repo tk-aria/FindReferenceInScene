@@ -1,0 +1,17 @@
+{
+	"name": "com.aria.unity.referenceinscene",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"displayName": "FindReferenceInScene",
+	"description": "explanation",
+	"category": "Editor",
+	"keywords": [ "Unity", "Editor" ],
+	"dependencies": {
+	},
+	"samples": [
+	],
+	"author": {
+	  "name": "tkaria",
+	  "url": "https://tk3118.hatenablog.com"
+	}
+}
