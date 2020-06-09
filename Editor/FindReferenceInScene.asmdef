@@ -1,0 +1,6 @@
+{
+    "name": "FindReferenceInScene",
+    "includePlatforms": [
+		"Editor"
+	]
+}
