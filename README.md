@@ -38,6 +38,7 @@ Component, reference search within the hierarchy of GameObject.
 * [Directory Structure](#-directory-structure)
 * [License](#-license)
 * [Reference](#-reference)
+* [Memo](#-memo)
 
 ## ■ Introduction
 
@@ -91,3 +92,122 @@ The documentation is generated with Doxygen if CMake can find that tool.
 ## ■ Reference
 
 
+## ■ Memo
+
+```
+IAudioPlayer
+AudioPlayer
+
+object, IAudioPlayer 
+
+AudioPlayer_BGM -> Play時の挙動を設定する
+AudioPlayer_SoundFX -> 
+AudioPlayer_Jingle
+
+
+// 基本的にコンテキストのラッパー
+SoundManager
+
+
+AudioCtrlContext
+{
+
+mixer
+
+playerTable 
+AddPlayer
+}
+
+Flux
+Dispatcher
+Action
+Store
+View
+
+ViewRouter
+
+object, IViewController
+
+ViewStacker
+viewをStackする。勝手に色々する
+
+scriptable build pipeline
+
+GASで簡単決済サービス作成
+
+drogonを試してみる
+
+Unity ScriptTemplateの活用
+
+UnityとSlackを連携
+
+独自のUnityパッケージ管理システムの構築
+
+unityのパッケージ管理が辛いという話
+良いモジュールを作っても、
+別プロジェクトに持って行くときは手動でコピーする
+npmみたいにもっと手軽に管理したい
+
+npmみたいなやついなかったけ？
+
+Unity Package Manager (UPM) (内部でnpm)
+まだまだ開発途中で 2020 beta (alpha)の現段階でもそんなに
+2019.1くらいの頃から進歩が無いように見える。
+特に、publicオンリーなことと
+自作パッケージを依存対象に含めないというのが、致命的な為実用段階にはない。
+社内ライブラリなどの規模が大きめで下位モジュールに対してモジュール依存がある場合は実用段階にはない。
+
+安定するまで、自作するしかない
+
+要件
+自作パッケージ間で依存解決ができる
+private, public問わない
+出来れば upmが安定した際に、すぐ移動できる
+
+候補
+NuGet
+npm
+
+yarn
+jem
+
+NuGetを用いる
+シンプルな仕様ゆえ使いやすい
+これが一番簡単そうだった
+サードパーティのパッケージ管理クライアントがある(ここが決めて)
+これがない場合、コマンドインストールになるので、人や職種によってはハードルが高い
+
+NuGetForUnity
+
+AzureArtifact
+内部でxmlパースしているので、v3APIを使用する
+
+独自のパッケージリポジトリを作る際は他にも、MyGetなどがある
+
+git hook 
+ファイルパス
+ファイル容量は気をつける.
+ファイル内容
+
+一番の問題点、設定されないこと
+unity起動時に .git/hook以下に指定ファイルが存在するか確認する。
+なければ、エラー文(ダイアログ)を出した後、editorを強制的に閉じる
+
+ffmpeg 
+audio stream 
+
+docker x11 emulate (pyside)
+
+unity windows wpf avalondock
+
+unity audio 
+unity native audio
+
+unity native plugin (rust)
+
+serializable dictionary
+
+unity maya c++
+
+unity ML(python tensolflow?)
+```
