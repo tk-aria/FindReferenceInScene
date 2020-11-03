@@ -66,15 +66,9 @@ Component, reference search within the hierarchy of GameObject.
 
 ```
 {
-    "com.aria.unity.xxx": "https://github.com/TK-Aria/skeleton.git#master" 
+    "com.ariasdk.findreferenceinscene": "https://github.com/tk-Aria/FindReferenceInScene.git#master" 
 }
 ```
-
-## from unity package
-
-- [download this here Releases](https://github.com/TK-Aria/skeleton/releases)
-
- <img src="https://pngimage.net/wp-content/uploads/2018/06/unity-logo-white-png-5.png" height="20" /> drag and drop or double click on unity package file.
 
 ## ■ Wiki
 
