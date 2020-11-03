@@ -55,17 +55,7 @@ getting ready now...
 }
 ```
 
-## ■ Wiki
-
-- [ScriptReference](#)
-
-## ■ Dependencies
-
-The documentation is generated with Doxygen if CMake can find that tool.
-
 ## ■ License
 ※ [about License](https://qiita.com/tukiyo3/items/58b8b3f51e9dc8e96886)
 
 - [MIT License](./LICENSE)
-
-## ■ Reference
