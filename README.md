@@ -2,7 +2,6 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
-[![NuGet](https://img.shields.io/badge/nuget-v1.0.0-blue)](#)
 
 Component, reference search within the hierarchy of GameObject.
 
@@ -26,9 +25,7 @@ Component, reference search within the hierarchy of GameObject.
 * [Home](#boilerplate-unitypackage)
 * [Documentation](#-documentation)
 * [Introduction](#-introduction)
-* [Build Status](#-build-status)
 * [Install](#-directory-structure)
-  * [from NuGet](#from-nuget)
   * [from Unity Package Manager](#from-unity-package-manager)
   * [from unity package](#from-unity-package)
 * [Wiki](#-wiki)
@@ -44,21 +41,9 @@ Component, reference search within the hierarchy of GameObject.
 
 <!-- edit introduction. -->
 
-## ■ Build Status
-
-### *Platform Supports*
-
-<!-- vertical layout -->
-
-| Platform | Test | CI |
-|----------|:--:|:-----:|
-| Editor | [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#) | N/A |
+getting ready now...
 
 ## ■ Install
-
-### from NuGet
-
-- nuget package manager.
 
 ### from Unity Package Manager
 
