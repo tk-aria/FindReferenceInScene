@@ -1,6 +1,6 @@
 {
-	"name": "com.aria.unity.referenceinscene",
-	"version": "1.0.1",
+	"name": "com.ariasdk.findreferenceinscene",
+	"version": "1.0.2",
 	"unity": "2019.1",
 	"displayName": "FindReferenceInScene",
 	"description": "explanation",
