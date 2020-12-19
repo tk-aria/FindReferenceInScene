@@ -1,7 +1,8 @@
 # FindReferenceInScene
 
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
+[![openupm](https://img.shields.io/npm/v/com.ariasdk.findreferenceinscene?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.ariasdk.findreferenceinscene/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Component, reference search within the hierarchy of GameObject.
 
