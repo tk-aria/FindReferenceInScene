@@ -52,7 +52,7 @@ getting ready now...
 
 ```
 {
-    "com.ariasdk.findreferenceinscene": "https://github.com/tk-Aria/FindReferenceInScene.git#master" 
+    "com.ariasdk.findreferenceinscene": "https://github.com/tk-aria/FindReferenceInScene.git#master" 
 }
 ```
 
